@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from codescandy.com/geeks-bootstrap-5/pages/course-single-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Dec 2021 00:59:43 GMT -->
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Geeks is a fully responsive and yet modern premium bootstrap template. Geek is feature-rich components and beautifully designed pages that help you create the best possible website and web application projects." />
+  <meta name="keywords"
+    content="Geeks UI, bootstrap, bootstrap 5, Course, Sass, landing, Marketing, admin themes, bootstrap admin, bootstrap dashboard, ui kit, web app, multipurpose" />
+
+  <!-- Favicon icon-->
+  <link rel="icon" type="image/png" href="https://http2.mlstatic.com/frontend-assets/portal-soporte-frontend/logo.png" data-head-react="true">
+
+  <!-- Libs CSS -->
+  <link href="../assets/fonts/feather/feather.css" rel="stylesheet" />
+  <link href="../assets/libs/%40fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link href="../assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="../assets/libs/dragula/dist/dragula.min.css" rel="stylesheet" />
+  <link href="../assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+  <link href="../assets/libs/dropzone/dist/dropzone.css" rel="stylesheet" />
+  <link href="../assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
+  <link href="../assets/libs/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+  <link href="../assets/libs/%40yaireo/tagify/dist/tagify.css" rel="stylesheet" />
+  <link href="../assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
+  <link href="../assets/libs/tippy.js/dist/tippy.css" rel="stylesheet" />
+  <link href="../assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+  <link href="../assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet" />
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css" />
+  <title>Guia - Eliminar meetings zombies</title>
+</head>
+
+<body cz-shortcut-listen="true">
+  <!-- Page content -->
+  <nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container-fluid px-0">
+      <a class="navbar-brand" href="../index.html"><img width="55rem" src="https://http2.mlstatic.com/frontend-assets/portal-soporte-frontend/logo.png" class="mainLogo" alt="fotix"></a>
+      <!-- Mobile view nav wrap -->
+      <ul class="
+          navbar-nav navbar-right-wrap
+          ms-auto
+          d-lg-none d-flex
+          nav-top-wrap
+        ">
+        <li class="dropdown stopevent">
+          <a class="
+              btn btn-light btn-icon
+              rounded-circle
+              text-muted
+              indicator indicator-primary
+            " href="#" role="button" data-bs-toggle="dropdown">
+            <i class="fe fe-bell"> </i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end shadow">
+            <div>
+              <div class="
+                  border-bottom
+                  px-3
+                  pb-3
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                ">
+                <span class="h5 mb-0">Notifications</span>
+              </div>
+              <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 300px;"><ul class="list-group list-group-flush notification-list-scroll" style="overflow: hidden; width: auto; height: 300px;">
+                <li class="list-group-item bg-light">
+                  <div class="row">
+                    <div class="col">
+                      <a href="#" class="text-body">
+                        <div class="d-flex">
+                          <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Kristin Watson:</h5>
+                            <p class="mb-3">
+                              Krisitn Watsan like your comment on course
+                              Javascript Introduction!
+                            </p>
+                            <span class="fs-6 text-muted">
+                              <span><span class="fe fe-thumbs-up text-success me-1"></span>2 hours ago,</span>
+                              <span class="ms-1">2:19 PM</span>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto text-center me-2">
+                      <a href="#" class="badge-dot bg-info" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar leida">
+                      </a>
+                      <div>
+                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Eliminar">
+                          <i class="fe fe-x text-muted"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col">
+                      <a href="#" class="text-body">
+                        <div class="d-flex">
+                          <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Brooklyn Simmons</h5>
+                            <p class="mb-3">
+                              Just launched a new Courses React for Facil.
+                            </p>
+                            <span class="fs-6 text-muted">
+                              <span><span class="fe fe-thumbs-up text-success me-1"></span>Oct 9,</span>
+                              <span class="ms-1">1:20 PM</span>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto text-center me-2">
+                      <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col">
+                      <a href="#" class="text-body">
+                        <div class="d-flex">
+                          <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Jenny Wilson</h5>
+                            <p class="mb-3">
+                              Krisitn Watsan like your comment on course
+                              Javascript Introduction!
+                            </p>
+                            <span class="fs-6 text-muted">
+                              <span><span class="fe fe-thumbs-up text-info me-1"></span>Oct 9,</span>
+                              <span class="ms-1">1:56 PM</span>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto text-center me-2">
+                      <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col">
+                      <a href="#" class="text-body">
+                        <div class="d-flex">
+                          <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Sina Ray</h5>
+                            <p class="mb-3">
+                              You earn new certificate for complete the
+                              Javascript Facil course.
+                            </p>
+                            <span class="fs-6 text-muted">
+                              <span><span class="fe fe-award text-warning me-1"></span>Oct 9,</span>
+                              <span class="ms-1">1:56 PM</span>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto text-center me-2">
+                      <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+              <div class="border-top px-3 pt-3 pb-0">
+                <a href="pages/notification-history.html" class="text-link fw-semi-bold">See all Notifications</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown ms-2">
+          <a class="rounded-circle" href="#" role="button" data-bs-toggle="dropdown">
+            <div class="avatar avatar-md avatar-indicators avatar-online">
+              <img alt="avatar" src="../assets/images/avatar/default2.png" class="rounded-circle">
+            </div>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end shadow">
+            <div class="dropdown-item">
+              <div class="d-flex">
+                <div class="avatar avatar-md avatar-indicators avatar-online">
+                  <img alt="avatar" src="../assets/images/avatar/default2.png" class="rounded-circle">
+                </div>
+                <div class="ms-3 lh-1">
+                  <h5 class="mb-1">Annette Black</h5>
+                  <p class="mb-0 text-muted">annette@geeksui.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+            <ul class="list-unstyled">
+              <li class="dropdown-submenu">
+                <a class="
+                    dropdown-item dropdown-list-group-item dropdown-toggle
+                  " href="#">
+                  <i class="fe fe-circle me-2"></i>Status
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="badge-dot bg-success me-2"></span>Online
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="badge-dot bg-secondary me-2"></span>Offline
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="badge-dot bg-warning me-2"></span>Away
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="badge-dot bg-danger me-2"></span>Busy
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="pages/profile-edit.html">
+                  <i class="fe fe-user me-2"></i>Profile
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="pages/student-subscriptions.html">
+                  <i class="fe fe-star me-2"></i>Subscription
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="fe fe-settings me-2"></i>Settings
+                </a>
+              </li>
+            </ul>
+            <div class="dropdown-divider"></div>
+            <ul class="list-unstyled">
+              <li>
+                <a class="dropdown-item" href="index.html">
+                  <i class="fe fe-power me-2"></i>Sign Out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <!-- Button -->
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar top-bar mt-0"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbar-default">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link"  href="../index.html" id="navbarBrowse" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
+              Inicio
+            </a>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a  href="course-path.html" class="nav-link dropdown-toggle" id="navbarLanding" aria-haspopup="true" aria-expanded="false">
+              Guias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarLanding">
+              <li>
+                <h4 class="dropdown-header">Categorias</h4>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  VPN
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">Ownboarding</a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">CX</a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Tableau
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  SAP
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Bootcamp
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Corp
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  WorkSpace
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Shield
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Mordor
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Contraseñas
+                </a>
+              </li>
+              <li>
+                <a href="course-path-single.html" class="dropdown-item">
+                  Antivirus
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Shield
+            </a>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarAccount" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Mordor
+            </a>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fe fe-more-horizontal fs-3"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
+              <div class="list-group">
+                <a class="list-group-item list-group-item-action border-0" href="docs/index.html">
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-paper-plane"></i>
+                    <div class="ms-3">
+                      <h5 class="mb-0">Sugerencias</h5>
+                      <p class="mb-0 fs-6"></p>
+                    </div>
+                  </div>
+                </a>
+                <a class="list-group-item list-group-item-action border-0" href="docs/changelog.html">
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-robot"></i>
+                    <div class="ms-3">
+                      <h5 class="mb-0">
+                        BOT Soporte
+                      </h5>
+                      <p class="mb-0 fs-6"></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form class="mt-3 mt-lg-0 ms-lg-3 d-flex align-items-center">
+          <span class="position-absolute ps-3 search-icon">
+            <i class="fe fe-search"></i>
+          </span>
+          <input type="search" class="form-control ps-6" placeholder="Buscar guias">
+        </form>
+        <ul class="navbar-nav navbar-right-wrap ms-auto d-none d-lg-block">
+          <li class="dropdown d-inline-block stopevent">
+            <a class="
+                btn btn-light btn-icon
+                rounded-circle
+                text-muted
+                indicator indicator-primary
+              " href="#" role="button" id="dropdownNotificationSecond" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fe fe-bell"> </i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg" aria-labelledby="dropdownNotificationSecond">
+              <div>
+                <div class="
+                    border-bottom
+                    px-3
+                    pb-3
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  ">
+                  <span class="h5 mb-0">Notificaciones</span>
+                </div>
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 300px;"><ul class="list-group list-group-flush notification-list-scroll" style="overflow: hidden; width: auto; height: 300px;">
+                  <li class="list-group-item bg-light">
+                    <div class="row">
+                      <div class="col">
+                        <a class="text-body" href="#">
+                          <div class="d-flex">
+                            <div class="ms-3">
+                              <h5 class="fw-bold mb-1">SHIELD:</h5>
+                              <p class="mb-3">
+                                [SLA] Ticket 577624 próximo a vencer.
+                              </p>
+                              <span class="fs-6 text-muted">
+                                <span><span class=" text-success me-1"></span>26/11/2021</span>
+                                <span class="ms-1">17:19:30</span>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-auto text-center me-2">
+                        <a href="#" class="badge-dot bg-info" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar leida">
+                        </a>
+                        <div>
+                          <a href="#" class="bg-transparent" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Eliminar">
+                            <i class="fe fe-x text-muted"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col">
+                        <a class="text-body" href="#">
+                          <div class="d-flex">
+                            <div class="ms-3">
+                              <h5 class="fw-bold mb-1">SHIELD:</h5>
+                              <p class="mb-3">
+                                [SLA] Ticket 577624 próximo a vencer.
+                              </p>
+                              <span class="fs-6 text-muted">
+                                <span><span class=" text-success me-1"></span>26/11/2021</span>
+                                <span class="ms-1">17:19:30</span>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-auto text-center me-2">
+                        <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col">
+                        <a class="text-body" href="#">
+                          <div class="d-flex">
+                            <div class="ms-3">
+                              <h5 class="fw-bold mb-1">SHIELD:</h5>
+                              <p class="mb-3">
+                                [SLA] Ticket 577624 próximo a vencer.
+                              </p>
+                              <span class="fs-6 text-muted">
+                                <span><span class=" text-success me-1"></span>26/11/2021</span>
+                                <span class="ms-1">17:19:30</span>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-auto text-center me-2">
+                        <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col">
+                        <a class="text-body" href="#">
+                          <div class="d-flex">
+                            <div class="ms-3">
+                              <h5 class="fw-bold mb-1">Sina Ray</h5>
+                              <p class="mb-3">
+                                You earn new certificate for complete the
+                                Javascript Facil course.
+                              </p>
+                              <span class="fs-6 text-muted">
+                                <span><span class="fe fe-award text-warning me-1"></span>Oct 9,</span>
+                                <span class="ms-1">1:56 PM</span>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-auto text-center me-2">
+                        <a href="#" class="badge-dot bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Marcar no leida">
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 165.746px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+                <div class="border-top px-3 pt-3 pb-0">
+                  <a href="pages/notification-history.html" class="text-link fw-semi-bold">Ver notifaciones</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown ms-2 d-inline-block">
+            <a class="rounded-circle" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              <div class="avatar avatar-md avatar-indicators avatar-online">
+                <img alt="avatar" src="../assets/images/avatar/default2.png" class="rounded-circle">
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="dropdown-item">
+                <div class="d-flex">
+                  <div class="avatar avatar-md avatar-indicators avatar-online">
+                    <img alt="avatar" src="../assets/images/avatar/default2.png" class="rounded-circle">
+                  </div>
+                  <div class="ms-3 lh-1">
+                    <h5 class="mb-1">Esteban Bravo</h5>
+                    <p class="mb-0 text-muted">ext_esbravo@mercadolibre.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-divider"></div>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="dropdown-item" href="pages/profile-edit.html">
+                    <i class="fe fe-user me-2"></i>Perfil
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pages/student-subscriptions.html">
+                    <i class="fe fe-star me-2"></i>Favoritos
+                  </a>
+                </li>
+              </ul>
+              <div class="dropdown-divider"></div>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="dropdown-item" href="index.html">
+                    <i class="fe fe-power me-2"></i>Salir
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Video section -->
+  <div class="p-lg-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12 mb-5">
+          <div class="rounded-3 position-relative w-100 d-block overflow-hidden p-0" style="height: 600px;">
+            <iframe class="position-absolute top-0 end-0 start-0 end-0 bottom-0 h-100 w-100" src="https://www.youtube.com/embed/PkZNo7MFNFg"></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-xl-8 col-lg-12 col-md-12 col-12 mb-4 mb-xl-0">
+          <!-- Card -->
+          <div class="card mb-5">
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <h1 class="fw-semi-bold mb-2">Eliminar meetings zoombies</h1>
+                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Favoritos">
+                  <i class="fe fe-bookmark fs-3 text-inherit"></i>
+                </a>
+              </div>
+              <div class="d-flex mb-5">
+                <span>
+                  <i class="mdi mdi-star me-n1 text-warning"></i>
+                  <i class="mdi mdi-star me-n1 text-warning"></i>
+                  <i class="mdi mdi-star me-n1 text-warning"></i>
+                  <i class="mdi mdi-star me-n1 text-warning"></i>
+                  <i class="mdi mdi-star-half-full text-warning"></i>
+                  <span class="fw-medium">(140)</span>
+                </span>
+                
+                <span class="ms-4 d-none d-md-block">
+                  <i class="mdi mdi-account-multiple-outline"></i>
+                  <span>Google</span>
+                </span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img src="../assets/images/avatar/default2.png" class="rounded-circle avatar-md" alt="">
+                  <div class="ms-2 lh-1">
+                    <h4 class="mb-1">Esteban Bravo</h4>
+                    <p class="fs-6 mb-0">ext_esbravo</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-lt-tab" id="tab" role="tablist">
+               <!-- Nav item -->
+              <li class="nav-item">
+                <a class="nav-link" id="description-tab" data-bs-toggle="pill" href="#description" role="tab" aria-controls="description" aria-selected="false">Descripcion</a>
+              </li>
+              <!-- Nav item -->
+              <li class="nav-item">
+                <a class="nav-link active" id="review-tab" data-bs-toggle="pill" href="#review" role="tab" aria-controls="review" aria-selected="true">Reseñas</a>
+              </li>
+              <!-- Nav item -->
+              
+              <!-- Nav item -->
+              
+            </ul>
+          </div>
+          <!-- Card -->
+          <div class="card rounded-3">
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="tab-content" id="tabContent">
+                <!-- Tab pane -->
+                <div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
+                  <div class="mb-4">
+                    <h3 class="mb-2">Descripcion</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur mollitia ad dolorum obcaecati laboriosam corporis corrupti dolore blanditiis accusamus? Iure facilis ea, vero eius laudantium deserunt tempora aut qui eum.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit possimus quas quos sunt facilis sit maiores sint harum, officiis quaerat dolore perspiciatis ducimus eius aliquid! Hic dolorem quibusdam dolor.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam atque cumque dolorem corrupti ex, perspiciatis corporis, dolorum voluptatum repellat doloremque vel voluptatem facilis, ipsum cupiditate minus. Ipsa totam at dicta!
+                    </p>
+                    
+                  </div>
+                  
+                  
+                  
+                  
+                </div>
+                <div class="tab-pane fade active show" id="review" role="tabpanel" aria-labelledby="review-tab">
+                  <div class="mb-3">
+                    <!-- Content -->
+                    <h3 class="mb-4">Reseñas de usuarios</h3>
+                    <div class="row align-items-center">
+                      <div class="col-auto text-center">
+                        <h3 class="display-2 fw-bold">4.5</h3>
+                        <i class="mdi mdi-star me-n1 text-warning"></i>
+                        <i class="mdi mdi-star me-n1 text-warning"></i>
+                        <i class="mdi mdi-star me-n1 text-warning"></i>
+                        <i class="mdi mdi-star me-n1 text-warning"></i>
+                        <i class="mdi mdi-star me-n1-half text-warning"></i>
+                        <p class="mb-0 fs-6">(Basado en 27 reseñas)</p>
+                      </div>
+                      <!-- Progress bar -->
+                      <div class="col pt-3 order-3 order-md-2">
+                        <div class="progress mb-3" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress mb-3" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress mb-3" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress mb-3" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress mb-0" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      <!-- Rating -->
+                      <div class="col-md-auto col-6 order-2 order-md-3">
+                        <div>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <span class="ms-1">53%</span>
+                        </div>
+                        <div>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <span class="ms-1">36%</span>
+                        </div>
+                        <div>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <span class="ms-1">9%</span>
+                        </div>
+                        <div>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <span class="ms-1">3%</span>
+                        </div>
+                        <div>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <i class="mdi mdi-star me-n1 text-light"></i>
+                          <span class="ms-1">2%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="my-5">
+                  <div class="mb-3">
+                    <!-- Review -->
+                    <div class="d-lg-flex align-items-center justify-content-between mb-5">
+                      <div class="mb-3 mb-lg-0">
+                        <h3 class="mb-0">Reseñas</h3>
+                      </div>
+                      <div>
+                        <!-- Search -->
+                        
+                      </div>
+                    </div>
+                    <div class="d-flex border-bottom pb-4 mb-4">
+                      <!-- Media -->
+                      <img src="../assets/images/avatar/default2.png" alt="" class="rounded-circle avatar-lg">
+                      <!-- Content -->
+                      <div class=" ms-3">
+                        <h4 class="mb-1">Esteban Bravo<span class="ms-1 fs-6 text-muted">Hace 2 dias</span>
+                        </h4>
+                        <div class="fs-6 mb-2">
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                        
+                      </div>
+                    </div>
+                    <div class="d-flex border-bottom pb-4 mb-4">
+                      <!-- Media -->
+                      <img src="../assets/images/avatar/default2.png" alt="" class="rounded-circle avatar-lg">
+                      <!-- Content -->
+                      <div class=" ms-3">
+                        <h4 class="mb-1">Lucas Leonel<span class="ms-1 fs-6 text-muted">Hace 3 dias</span>
+                        </h4>
+                        <div class="fs-6 mb-2">
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="d-flex border-bottom pb-4 mb-4">
+                      <!-- Media -->
+                      <img src="../assets/images/avatar/default2.png" alt="" class="rounded-circle avatar-lg">
+                      <!-- Content -->
+                      <div class=" ms-3">
+                        <h4 class="mb-1">Kevin Camargo<span class="ms-1 fs-6 text-muted">Hace 4 dias</span></h4>
+                        <div class="fs-6 mb-2">
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <!-- Media -->
+                      <img src="../assets/images/avatar/default2.png" alt="" class="rounded-circle avatar-lg">
+                      <!-- Content -->
+                      <div class=" ms-3">
+                        <h4 class="mb-1">Flavio Torres<span class="ms-1 fs-6 text-muted">Hace 5 dias</span>
+                        </h4>
+                        <div class="fs-6 mb-2">
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                          <i class="mdi mdi-star me-n1 text-warning"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                  <!-- FAQ -->
+                  <div>
+                    <h3 class="mb-3">Course - Frequently Asked Questions</h3>
+                    <div class="mb-4">
+                      <h4>How this course help me to design layout?</h4>
+                      <p>
+                        My name is Jason Woo and I work as human duct tape at Gatsby, that means that I do a lot of
+                        different things. Everything from dev roll to writing content to writing code. And I used to
+                        work as an architect at IBM. I live in Portland, Oregon.
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <h4>
+                        What is important of this course?
+                      </h4>
+                      <p>
+                        We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the pieces of it that
+                        we need to build in Gatsby. We're not gonna be doing a deep dive into what GraphQL is or
+                        the language specifics. We're also gonna get into MDX. MDX is a way to write React components in
+                        your markdown.
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <h4>Why Take This Course?</h4>
+                      <p>
+                        We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the pieces of it that
+                        we need to build in Gatsby. We're not gonna be doing a deep dive into what GraphQL is or
+                        the language specifics. We're also gonna get into MDX. MDX is a way to write React components in
+                        your markdown.
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <h4>
+                        Is able to create application after this course?
+                      </h4>
+                      <p>
+                        We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the pieces of it that
+                        we need to build in Gatsby. We're not gonna be doing a deep dive into what GraphQL is or
+                        the language specifics. We're also gonna get into MDX. MDX is a way to write React components in
+                        your markdown.
+                      </p>
+                      <p>
+                        We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the pieces of it that
+                        we need to build in Gatsby. We're not gonna be doing a deep dive into what GraphQL is or
+                        the language specifics. We're also gonna get into MDX. MDX is a way to write React components in
+                        your markdown.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+          <div class="card" id="courseAccordion">
+            <div>
+              <!-- List group -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item p-0 bg-transparent">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              <li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li><li class="list-group-item p-0">
+                  <!-- Toggle -->
+                  <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none py-3 px-4 collapsed" data-bs-toggle="collapse" href="#courseTwo" role="button" aria-expanded="false" aria-controls="courseTwo">
+                    <div class="me-auto">
+                      Lorem impsum
+                      
+                    </div>
+                    <!-- Chevron -->
+                    
+                  </a>
+                  <!-- Row -->
+                  <!-- Collapse -->
+                  
+                </li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row align-items-center g-0 border-top py-2">
+        <!-- Desc -->
+        <div class="col-md-6 col-12 text-center text-md-start">
+          <span>IS Support - Mercado Libre 2021</span>
+        </div>
+        <!-- Links -->
+        <div class="col-12 col-md-6">
+          <nav
+            class="
+              nav nav-footer
+              justify-content-center justify-content-md-end
+            "
+          >
+            <a class="nav-link" href="#">#ISContigo</a>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <!-- Libs JS -->
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/odometer/odometer.min.js"></script>
+<script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<script src="../assets/libs/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="../assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+<script src="../assets/libs/inputmask/dist/jquery.inputmask.min.js"></script>
+<script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+<script src="../assets/libs/quill/dist/quill.min.js"></script>
+<script src="../assets/libs/file-upload-with-preview/dist/file-upload-with-preview.min.js"></script>
+<script src="../assets/libs/dragula/dist/dragula.min.js"></script>
+<script src="../assets/libs/bs-stepper/dist/js/bs-stepper.min.js"></script>
+<script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="../assets/libs/jQuery.print/jQuery.print.js"></script>
+<script src="../assets/libs/prismjs/prism.js"></script>
+<script src="../assets/libs/prismjs/components/prism-scss.min.js"></script>
+<script src="../assets/libs/%40yaireo/tagify/dist/tagify.min.js"></script>
+<script src="../assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
+<script src="../assets/libs/%40popperjs/core/dist/umd/popper.min.js"></script>
+<script src="../assets/libs/tippy.js/dist/tippy-bundle.umd.min.js"></script>
+<script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+<script src="../assets/libs/jsvectormap/dist/js/jsvectormap.min.js"></script>
+<script src="../assets/libs/jsvectormap/dist/maps/world.js"></script>
+<script src="../assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+<script src="../assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+
+
+
+
+
+
+
+<!-- Theme JS -->
+<script src="../assets/js/theme.min.js"></script>
+
+
+
+<!-- Mirrored from codescandy.com/geeks-bootstrap-5/pages/course-single-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Dec 2021 00:59:44 GMT -->
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<!-- Mirrored from codescandy.com/geeks-bootstrap-5/pages/course-single-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Dec 2021 00:59:44 GMT -->
+
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<!-- Mirrored from codescandy.com/geeks-bootstrap-5/pages/course-single-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Dec 2021 00:59:44 GMT -->
+
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg></body>
+
+<!-- Mirrored from codescandy.com/geeks-bootstrap-5/pages/course-single-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Dec 2021 00:59:44 GMT -->
+
+</html>
